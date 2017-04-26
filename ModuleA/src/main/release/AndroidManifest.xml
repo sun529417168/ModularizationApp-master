@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.easydone.modulea">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <activity
+            android:name="cn.easydone.modulea.LibraryActivity"
+            android:theme="@style/module1_AppTheme.NoActionBar" />
+        <activity
+            android:name="cn.easydone.modulea.book.BookDetailActivity"
+            android:theme="@style/module1_AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
